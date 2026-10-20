@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_large"
+    android:background="@color/background_color">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_note"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_title"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="@dimen/margin_large"
+        android:hint="@string/note_title_hint"
+        android:inputType="textCapSentences"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/etTitle"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:gravity="top"
+        android:hint="@string/note_text_hint"
+        android:inputType="textMultiLine|textCapSentences"
+        android:padding="@dimen/padding_medium" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etText"
+        android:layout_marginTop="@dimen/margin_large"
+        android:text="@string/save_note"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

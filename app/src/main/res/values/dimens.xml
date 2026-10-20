@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_card">18dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="input_height">52dp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_title">28sp</dimen>
+    <dimen name="text_size_logo">32sp</dimen>
+</resources>

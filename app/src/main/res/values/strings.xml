@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteSpace</string>
+
+    <string name="home_title">NoteSpace</string>
+    <string name="home_subtitle">Твои заметки — всегда под рукой</string>
+
+    <string name="search_hint">Найти заметку...</string>
+    <string name="search_notes_hint">Поиск заметок...</string>
+
+    <string name="notes_title">Мои заметки</string>
+    <string name="open_notes">Открыть все заметки</string>
+    <string name="add_note">Добавить заметку</string>
+
+    <string name="new_note">Новая заметка</string>
+    <string name="note_title_hint">Название заметки</string>
+    <string name="note_text_hint">Напиши свою заметку...</string>
+    <string name="save_note">Сохранить заметку</string>
+
+    <string name="empty_notes">Заметки не найдены</string>
+    <string name="title_required">Введите название заметки</string>
+    <string name="note_saved">Заметка сохранена</string>
+    <string name="back_to_home">Назад на главный экран</string>
+
+    <string name="study_note">Учёба\n\nМои учебные задачи и планы</string>
+    <string name="ideas_note">Идеи\n\nМысли, которые хочу сохранить</string>
+</resources>
+

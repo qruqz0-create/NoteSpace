@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_title"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_logo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/home_subtitle"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="@dimen/text_size_small" />
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_height"
+            android:layout_marginTop="@dimen/margin_large"
+            android:backgroundTint="@color/accent_color"
+            android:hint="@string/search_hint"
+            android:inputType="text"
+            android:padding="@dimen/padding_medium"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:text="@string/notes_title"
+            android:textColor="@color/text_color"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/note_yellow"
+            android:padding="@dimen/padding_card"
+            android:text="@string/study_note"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/note_green"
+            android:padding="@dimen/padding_card"
+            android:text="@string/ideas_note"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_medium" />
+
+        <Button
+            android:id="@+id/btnNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:text="@string/open_notes"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>
